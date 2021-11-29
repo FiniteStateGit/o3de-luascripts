@@ -1,4 +1,4 @@
-local class = require "class"
+local class = require "Scripts.aoi.class"
 
 local new_tab = function (asize, hsize) return {} end
 local ok, sys = pcall(require, "sys")
